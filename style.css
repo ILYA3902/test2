@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2? Family= Poppins & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.header {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 40px;
+  position: absolute;
+  width: 100%;
+}
+
+.navigation {
+  padding-top: 20px;
+  padding-right: 60px;
+  color: white;
+}
+
+.navigation a {
+  margin-right: 40px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:last-child {
+  margin: 0;
+}
+
+.yaz {
+  padding-top: 20px;
+}
+
+.yaz span {
+  margin-right: 10px;
+  color: white;
+}
+
+.yaz span:last-child {
+  margin: 0;
+}
+
+.info-background {
+}
+
+.info {
+  background-image: url(./images_1/overley.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 305px;
+}
+
+.info-block {
+}
+
+.info h1 {
+  font-weight: 700;
+  font-size: 48px;
+  padding-top: 217px;
+  width: 70%;
+  text-align: left;
+  margin-bottom: 53px;
+}
+
+.info button {
+  text-align: left;
+  padding: 11px 49px 12px 48px;
+  background-color: red;
+  color: white;
+}
+
+.intro-block {
+  background: gainsboro;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  margin-right: 21px;
+  padding: 39px 48px 37px 39px;
+  min-width: 386px;
+}
+
+.intro-blocks {
+  display: flex;
+  gap: 21px;
+  position: absolute;
+  bottom: -14%;
+  left: 10%;
+}
+
+.intro-block p {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 21px 0px 15px 0px;
+  color: black;
+}
+
+.intro-block span {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 37px;
+  color: black;
+}
+
+.services__inner {
+  margin-top: 197px;
+  color: black;
+}
+
+.services__inner h2 {
+  margin-bottom: 15px;
+}
+
+.services-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-info {
+  margin-top: 60px;
+  display: flex;
+}
+
+.understand-block {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.understand {
+  background-image: url(./images_1/Rectangle\ 11.png);
+}
+
+.understand__inner {
+  width: 100%;
+  margin-right: 182px;
+  padding-top: 117px;
+  padding-bottom: 116px;
+}
+
+.understand__inner h2 {
+  font-weight: 700;
+  font-size: 30px;
+  width: 80%;
+  letter-spacing: 0.15em;
+}
+
+.understand__inner span {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.understand__inner p {
+  padding-top: 42px;
+  padding-bottom: 48px;
+  font-weight: 600;
+  font-size: 15px;
+  width: 70%;
+  line-height: 150%;
+}
+
+.understand__inners {
+  padding-top: 153px;
+  padding-bottom: 170px;
+}
+
+.fast__inner {
+  text-align: center;
+}
+
+.fast__blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+}
+
+.fast__inner p {
+  margin-bottom: 92px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.fast__inner h3 {
+  margin-top: 99px;
+  margin-bottom: 58px;
+  font-weight: 900;
+  font-size: 148px;
+}
+
+.fast-block {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  width: 386px;
+  margin-right: 18px;
+  margin-bottom: 112px;
+  min-width: 386px;
+  text-align: left;
+}
+
+.fast-block p {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 31px;
+  padding-bottom: 15px;
+  width: 70%;
+  padding-left: 30px;
+}
+
+.fast-block h3 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 26px;
+  padding-left: 30px;
+  color: #b7b7b7;
+}
+
+.format {
+  width: 439px;
+  height: 384px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 33px 33px 131px;
+  grid-column-gap: 46px;
+  grid-row-gap: 45px;
+  grid-auto-rows: ;
+}
+
+.message {
+}
